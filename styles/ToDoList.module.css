@@ -1,0 +1,54 @@
+.todolist {
+    display: flex;
+    flex-direction: column;
+}
+
+.todolist h4 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.todolist input {
+    padding: 5px 15px;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    transition: box-shadow ease-out 150ms;
+}
+
+.todolist input:hover, .todolist input:focus {
+    cursor: url("../public/text-cursor.png"), text;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(27, 26, 26, 0.4);
+    transition: box-shadow ease-in 250ms;
+}
+
+.todolist Button {
+    margin-bottom: 10px;
+}
+
+.todolist h3 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.todolist .row {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.todolist .row button {
+    margin: 0;
+}
+
+.todolist .tasklist {
+    overflow-y: auto;
+    max-height: 700px;
+}

@@ -1,0 +1,3 @@
+.link:hover {
+    cursor: url("../public/hand-pointer.png"), pointer;
+}
