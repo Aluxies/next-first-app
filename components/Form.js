@@ -56,12 +56,13 @@ export default function Form() {
                     <h4>Age</h4>
                     <input
                         type="number"
-                        defaultValue="0"
+                        defaultValue="1"
                         step="1"
+                        min="1"
                         max="130"
                         placeholder="Please choose your age"
                         onChange={handleChange}
-                        value={formData.age || 0}
+                        value={formData.age || 1}
                         name="age"
                     />
                     <input type="submit" value="Submit"/>
